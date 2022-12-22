@@ -1,0 +1,45 @@
+@media only screen and (min-width: 992px) {
+    .menu {
+        display: none;
+      }
+    
+      nav ul {
+        flex-grow: 1;
+    
+    
+        display: flex;
+        justify-content: flex-end;
+      }
+    
+      nav ul li {
+        flex-grow: 1;
+        text-align: right;
+      }
+
+      .reason-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 2rem;
+      }
+
+      .contacts {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .contact-info {
+        flex-basis: 40%;
+      }
+
+      .contact-form {
+        flex-basis: 60%;
+      }
+
+      footer {
+        display: flex;
+        flex-direction: column;
+      }
+    
+}
